@@ -1,0 +1,25 @@
+﻿<Window x:Class="PROG___Task_1.Instructions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG___Task_1"
+        mc:Ignorable="d"
+        Title="Instructions" Height="450" Width="800" FontSize="14" Background="#04c582">
+    <Border Background="#2e3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Instructions" Foreground="White" FontSize="30" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+
+            <Label Content="In this expercise you will reorder the Call Numbers in Ascending Order" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="If the Call Numbers are the same you will then reorder them by the Authors Surname " Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="You have 2 Minutes to complete this assessment" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="Once you are done you can check if your ordering is correct by pressing the 'Check' Button" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="Press 'Start' To Begin the Assessment" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="Most Importantly, Have Fun :)" Foreground="White" FontSize="14" HorizontalAlignment="Center"/>
+
+            <Button x:Name="btnContinue" FontSize="15" Content="CONTINUE" HorizontalAlignment="Center" Margin="1, 50" VerticalAlignment="Bottom" Height="35" Width="101" Background="#545d6a" Foreground="White" Click="btnContinue_Click"/>
+
+        </StackPanel>
+    </Border>
+</Window>
